@@ -1,0 +1,72 @@
+.profileContainer {
+    width: 300px;
+    border: 3px solid #2f2a2adf;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.userContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+.userImg {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #2f2a2adf;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.userName {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.userTag {
+    font-size: 14px;
+    font-weight: 400;
+    color: #827c7cdf;
+    margin-bottom: 14px;
+}
+
+.userLocation {
+    font-size: 14px;
+    font-weight: 400;
+    color: #827c7cdf;
+}
+
+.ratingList {
+    display: flex;
+    border-top: 3px solid #827c7cdf;
+}
+
+.ratingItem {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c1babadf;
+    padding: 8px;
+}
+
+.ratingItem:not(:last-child) {
+    border-right: 3px solid #827c7cdf;
+}
+
+.ratingTitle {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ratingStats {
+    font-size: 14px;
+    font-weight: 700;
+}
